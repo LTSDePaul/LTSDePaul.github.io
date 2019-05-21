@@ -14,11 +14,6 @@ body {
 	overflow: hidden;
 }
 
-ul {
-	margin: 0;
-	padding:0;
-}
-
 .button_1{
 	height: 38px;
 	background:#F9D342;
@@ -41,6 +36,7 @@ header{
 	background: #4A274F;
 	color: #ffffff;
 	padding-top: 30px;
+	padding-bottom: 25px;
 	min-height:70px;
 	border-bottom: #F9D342 3px solid;
 }
@@ -48,8 +44,12 @@ header{
 header a{
 	color:#ffffff;
 	text-decoration: none;
-	text-transform: uppercase;
 	font-size:16px;
+}
+
+header ul {
+	margin: 0;
+	padding:0;
 }
 	
 header li{
@@ -62,14 +62,9 @@ header #branding{
 	float:left;
 }
 
-header #branding h1{
-	margin:0;
-	font-family: 'Averia Serif Libre', cursive;
-}
-
 header #branding img{
 	width: 35%;
-	padding-right: 20px;
+	margin: 0;
 }
 
 header nav{
@@ -84,7 +79,6 @@ header .highlight, header .current a{
 
 header a:hover{
 	color:#cccccc;
-	font-weight:bold;
 }
 
 /* Showcase */
@@ -150,6 +144,7 @@ footer{
 	color:#ffffff;
 	background-color:#F9D342;
 	text-align: center;
+	font-size: 12px;
 }
 
 /*About Us*/
@@ -161,7 +156,8 @@ footer{
 
 .column {
 	float: right;
-	width: 50%;
+	width: 46%;
+	margin: 2%;
 }
 .row: after {
 	content: "";
@@ -180,12 +176,6 @@ footer{
 	#newletter h1,
 	#newletter form,
 	#boxes .box,
-	article#main-col,
-	aside#sidebar{
-		float:none;
-		text-align:center;
-		width:100%;
-	}
 	
 	header{
 		padding-bottom:20px;
