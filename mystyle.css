@@ -36,7 +36,7 @@ header{
 	background: #4A274F;
 	color: #ffffff;
 	padding-top: 30px;
-	padding-bottom: 25px;
+	
 	min-height:70px;
 	border-bottom: #F9D342 3px solid;
 }
@@ -157,7 +157,7 @@ footer{
 .column {
 	float: right;
 	width: 46%;
-	margin: 2%;
+	margin: 0 2% 0 2%;
 }
 .row: after {
 	content: "";
@@ -179,6 +179,7 @@ footer{
 	
 	header{
 		padding-bottom:20px;
+		
 	}
 	
 	#showcase h1{
